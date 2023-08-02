@@ -107,12 +107,9 @@ String? getInput(String arg) {
 }
 
 int chooseTasktoBeEdited() {
-  // List ans = TaskManager.viewAllTasks();
   print("\ninsert the desired number to edit that task");
   String? number = getInput("Your prefered number");
   int choice = int.parse(number!);
-  // print(ans[choice]);
-  // return (ans[choice]);
   return choice;
 }
 
